@@ -41,3 +41,14 @@ client.elevation = message => {
   return permlvl;
 };
 // PERM LEVELLER FİNAL \\
+
+// LOGİN \\
+client.login(Settings.Token).then(
+  function() {
+    console.log(`${client.user.username}`, "Discord'a Başarıyla Bağlandı!");
+  },
+  function() {
+    console.log("Token Hatalı. Bot Başlatılamadı!");
+  }
+);
+// LOGİN FİNAL \\
