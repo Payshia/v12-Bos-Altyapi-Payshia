@@ -1,10 +1,4 @@
 {
-  "Token": "",
-  "Prefix": "/",
-  "Sürüm": "0.8.1",
-  "Onay": "<:EN_Onay:775345293842841611>",
-  "Bekleyin": "<:EN_Bekleyin:775345294064746516>",
-  "Hata": "<:EN_Hata:775345294107607073>",
-  "Join": "<a:EN_Join:775345246669766706>",
-  "Leave": "<a:EN_Leave:775345295880880148>"
+  "Token": "Token Gir!",
+  "Prefix": "Prefix Gir!"
 }
