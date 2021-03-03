@@ -20,7 +20,7 @@ module.exports = async message => {
 
 
   if (cmd) {
-    if (perms < cmd.confing.permLevel) return;
+    if (perms < cmd.conf.permLevel) return;
 cmd.run(client, message, params, perms)
   }
   }
