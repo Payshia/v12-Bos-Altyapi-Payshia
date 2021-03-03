@@ -21,7 +21,7 @@ fs.readdir("./Commands", (ERROR, files) => {
   files.forEach(f => {
     let props = require(`./Commands/${f}`);
     client.commands.set(props.help.name, props);
-    props.confing.aliases.forEach(alias => {
+    props.conf.aliases.forEach(alias => {
       client.aliases.set(alias, props.help.name);
     });
   });
